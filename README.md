@@ -1,14 +1,18 @@
 # twitter-data-analysis
 Repository of code used in Twitter Data Analysis on Surveillance Discourse
 
-Files: 
-`get_edgelist.R`
+# Files
 
-`get_nodelist.R`
+`word_frequency.ipynb`: Python notebook that counts the most common words in Tweets
 
-`sentiment_polarity.ipynb`
+`get_edgelist.R`: R script that takes in Twitter data and outputs directed edges that correspond to replies from one user to another
 
-`sentiment_per_region.ipynb`
+`get_nodelist.R`: R script that takes in edgelist produced by `get_edgelist.R` and outputs all the unique user nodes in the reply network
 
-`word_frequency.ipynb`
+`sentiment_per_region.ipynb`: Python notebook that calculates tweet senitment statistics per region 
+
+`sentiment_polarity.ipynb`: Python notebook that analyzes and visualizes the spread of sentiment per region
+
+
+
 
